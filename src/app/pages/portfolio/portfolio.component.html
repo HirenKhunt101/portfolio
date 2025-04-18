@@ -64,9 +64,11 @@
           </div>
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
-            <p>
-              {{ about.details }}
-            </p>
+            <ul class="about-details-list">
+              @for (detail of about.details; track $index) {
+                <li>{{ detail }}</li>
+              }
+            </ul>
             <div class="tab-titles">
               <p class="links link-active" (click)="opentab('skills', $event)">
                 Skills
@@ -239,7 +241,7 @@
                 <p class="mt-2">
                   "EZY-HR software streamlined our employee management, payroll,
                   and attendance tracking. It saved us time and improved
-                  efficiency significantly”
+                  efficiency significantly"
                 </p>
                 <h4 class="font-weight-bold">Glean Smith</h4>
                 <p>HR Manager</p>
@@ -261,7 +263,7 @@
                 <p class="mt-2">
                   "HotelPro PMS transformed our hotel operations with seamless
                   reservations, real-time room status, and automated billing.
-                  Managing guests has never been easier.”
+                  Managing guests has never been easier."
                 </p>
                 <h4 class="font-weight-bold">Sophia Williams</h4>
                 <p>Hotel Operations Manager</p>
@@ -283,7 +285,7 @@
                 <p class="mt-2">
                   "Desktop software is a game-changer for our business, offering
                   offline functionality, quick invoice generation, and smooth
-                  data management”
+                  data management"
                 </p>
                 <h4 class="font-weight-bold">Daniel Carter</h4>
                 <p>Business Owner</p>

@@ -101,21 +101,16 @@ export class PortfolioComponent implements OnInit {
     },
   ];
   about = {
-    details: ` I'm a Software Developer with over 2 years of experience in
-              Node.js and Angular, specializing in building and managing both
-              frontend and backend systems for web applications. My expertise
-              includes payment gateway integrations (Stripe, Shift4 UTG),
-              real-time notifications (WebSockets), database optimization
-              (MongoDB, SQLite), and enterprise software development for
-              industries like property management, HR & payroll, legal tech, and
-              construction management. I enjoy solving complex problems,
-              optimizing APIs, and creating scalable, industry-level
-              architectures. I also share my knowledge with the developer
-              community through my projects and insights. Feel free to connect
-              with me on LinkedIn—I'm open to collaborations, freelance
-              opportunities, and roles where I can contribute, learn, and grow.
-              If you have an opportunity that aligns with my skills, don't
-              hesitate to reach out! 🚀`,
+    details: [
+      'Software Developer with 2+ years of experience in Node.js and Angular.',
+      'Specialize in building and managing both frontend and backend systems for web applications.',
+      'Expert in payment gateway integrations (Stripe, Shift4 UTG).',
+      'Experience with real-time notifications using WebSockets.',
+      'Database optimization skills for MongoDB and SQLite.',
+      'Enterprise software development for property management, HR & payroll, legal tech and construction management.',
+      'Open to collaborations, freelance opportunities, and roles where I can contribute, learn and grow.',
+      'Feel free to connect with me on LinkedIn or reach out if you have relevant opportunities! 🚀'
+    ],
     skills: [
       {
         name: 'Node Js',

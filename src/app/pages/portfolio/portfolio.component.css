@@ -574,6 +574,7 @@ form .btn2 {
 
   .about-col-1 img {
     width: 100%;
+    margin-bottom: 20px;
   }
 
   .sub-title {
@@ -669,4 +670,21 @@ form .btn2 {
     transform: translateY(0);
     opacity: 1;
   }
+}
+
+
+.about-details-list li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 25px;
+  list-style-type: none;
+}
+
+.about-details-list li::before {
+  content: "•";
+  color: #ff004f;
+  font-size: 22px;
+  position: absolute;
+  left: 0;
+  top: -6px;
 }
