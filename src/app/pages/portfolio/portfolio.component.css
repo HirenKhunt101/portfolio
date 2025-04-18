@@ -352,7 +352,7 @@ nav ul li a:hover::after {
 }
 
 #contact {
-  padding-top: 130px;
+  padding-top: 160px;
   position: relative;
   z-index: 1;
   background: linear-gradient(to right, #ffa62e, #ff2900);
@@ -531,6 +531,7 @@ form .btn2 {
 
   .darkbtn {
     right: 50px;
+    margin-top: 5px;
   }
 
   nav ul {
@@ -572,7 +573,7 @@ form .btn2 {
   }
 
   .about-col-1 img {
-    width: 50%;
+    width: 100%;
   }
 
   .sub-title {
